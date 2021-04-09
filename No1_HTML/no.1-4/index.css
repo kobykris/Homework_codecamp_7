@@ -125,3 +125,18 @@ form.booking-form  > .form-row > [class^="form-col"] > .form-input > select {
   border-radius: 5px;
 }
 
+
+/** Phone book. */
+table.phonebook { 
+  width: 100%; 
+  border-collapse: collapse; 
+  max-width: 600px;
+  margin: auto;
+}
+.phonebook > thead { background: rgb(1, 108, 170); color: #fff }
+.phonebook th, .phonebook td {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.phonebook > tbody > tr:hover { background: azure; }
