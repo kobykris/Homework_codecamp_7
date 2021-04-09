@@ -74,3 +74,54 @@ table.friends-list { width: 100%; border-collapse: collapse; }
 }
 
 .friends-list > tbody > tr:hover { background: azure; }
+
+
+
+/** Form booking */
+.form-container { 
+  /* outline: red solid 1px; */
+  max-width: 600px;
+  margin: 20px auto;
+  background: #eee;
+  padding: 10px;
+}
+
+form.booking-form  > .form-row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px auto;
+}
+
+form.booking-form  > .form-row > .form-col25 {
+  /* outline: green solid 1px; */
+  width: 25%;
+}
+form.booking-form  > .form-row > .form-col50 {
+  /* outline: green solid 1px; */
+  width: 50%;
+}
+
+form.booking-form  > .form-row > [class^="form-col"] > label {
+  font-weight: 600;
+  margin: 10px;
+}
+
+form.booking-form  > .form-row > [class^="form-col"] > .form-input {
+  /* outline: green solid 1px; */
+  margin: 10px;
+}
+form.booking-form  > .form-row > [class^="form-col"] > .form-input > input,
+form.booking-form  > .form-row > [class^="form-col"] > .form-input > select {
+  width: 95%;
+  padding: 5px;
+}
+
+.button-row { padding: 10px; }
+.button-row > button { 
+  padding: 10px 15px; 
+  color: #fff; 
+  background: orangered;
+  border: 0px;
+  border-radius: 5px;
+}
+
