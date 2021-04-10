@@ -5,29 +5,137 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Review</title>
+
+  <link rel="stylesheet" href="../index.css">
 </head>
 <body>
   <div class="container">
     
-    <table>
+    <table class="table quiz-table">
       <thead>
         <tr>
           <th>#</th>
           <th>Quiz</th>
-          <th>Ans</th>
+          <th>Ans.</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
+          <td>1.1</td>
           <td>CSS syntax ประกอบด้วยอะไรบ้าง</td>
-          <td>ประกอบด้วย selector, property และ value</td>
+          <td>
+            ประกอบด้วย 
+            <ol>
+              <li>Selector</li>
+              <li>Property</li>
+              <li>Value</li>
+            </ol>
+          </td>
         </tr>
+
         <tr>
-          <td>2</td>
+          <td>1.2</td>
           <td>การเขียน CSS มีกี่แบบอะไรบ้าง</td>
-          <td>3 แบบคือ 1) inline css, 2) internal css, 3) external css</td>
+          <td>
+            มี 3 แบบคือ 
+            <ol>
+              <li>Inline css</li>
+              <li>Internal css</li>
+              <li>External css</li>
+            </ol>
+          </td>
         </tr>
+        
+        <tr>
+          <td>1.3</td>
+          <td>selector มีกี่แบบอะไรบ้าง</td>
+          <td>
+            มีประมาณ 7 แบบคือ 
+            <ol>
+              <li>Element</li>
+              <li>Id</li>
+              <li>Class</li>
+              <li>Psudo Class</li>
+              <li>Psudo Element</li>
+              <li>Combinator</li>
+              <li>Attribute</li>
+            </ol>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>1.4</td>
+          <td>combinator มีกี่แบบอะไรบ้าง</td>
+          <td>
+            มีประมาณ 7 แบบคือ 
+            <ol>
+              <li>Descendant เช่น p div {...}</li>
+              <li>Child เช่น p > div {...}</li>
+              <li>Adjacent Sibling เช่น p + div {...}</li>
+              <li>General Sibling เช่น p ~ div {...}</li>
+            </ol>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>2.1</td>
+          <td>property และ value คืออะไรแตกต่างกันอย่างไร</td>
+          <td>
+            <p>property คือ ส่วนที่ใช้กำหนดสิ่งที่เราต้องการปรับแต่ง</p>
+            <p>value คือ ค่าที่ใช้กำหนด property ที่ต้องการว่าให้มีลักษณะเป็นอย่างไร</p>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>2.2</td>
+          <td>property ที่สอนใน precamp มีกี่กลุ่มอะไรบ้าง</td>
+          <td>
+            มี 5 กลุ่ม
+            <ol>
+              <li>content</li>
+              <li>border</li>
+              <li>padding</li>
+              <li>margin</li>
+              <li>element</li>
+            </ol>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>2.3</td>
+          <td>value unit มีกี่ประเภทอะไรบ้างแต่ละ ประเภทคืออะไร</td>
+          <td>
+            มี 2 ประเภท
+            <ol>
+              <li>
+                absolute lengths คือ ขนาดจริง มีหน่วยวัดตามมาตราส่วน (ไม่ยืดหยุ่นตามขนาดหน้าจอ)
+                <ul>
+                  <li>cm เซนติเมตร</li>
+                  <li>mm มิลลิเมตร</li>
+                  <li>in นิ้ว</li>
+                  <li>px พิกเซล (1/96in)</li>
+                  <li>pt พอยน์ (1/72in)</li>
+                  <li>pc พิคาล (1/12in)</li>
+                </ul>
+              </li>
+              <li>
+                relative lengths คือ ขนาดตามอัตราส่วน (ยืดหยุ่นตามขนาดหน้าจอ)
+                <ul>
+                  <li>em ขนาดฟอนต์ของ parent element</li>
+                  <li>rem ขนาดฟอนต์ของ root element</li>
+                  <li>ex ความสูงฟอนต์ของ parent element</li>
+                  <li>ch ความกว้างฟอนต์ของ parent element</li>
+                  <li>% ขนาดเป็นเปอร์เซ็นต์ของ parent element</li>
+                  <li>vh ความสูงหน้าจออุปกรณ์ (%)</li>
+                  <li>vw ความกว้างหน้าจออุปกรณ์ (%)</li>
+                  <li>vmin view point ต่ำสุด (%)</li>
+                  <li>vmax view point สูงสุด (%)</li>
+                </ul>
+              </li>
+            </ol>
+          </td>
+        </tr>
+
       </tbody>
     </table>
   </div>

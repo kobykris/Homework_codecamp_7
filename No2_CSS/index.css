@@ -1,0 +1,16 @@
+
+
+.center { text-align: center;}
+
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.table.quiz-table { max-width: 800px; margin: auto;}
+.table.quiz-table > thead { background: rgb(2, 14, 179); color: #fff }
